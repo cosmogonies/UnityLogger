@@ -1,6 +1,9 @@
 using UnityEngine;
 
-using Goat;
+
+//using Goat;
+
+using GoatUtils;
 
 class UnityLogger_Samples: MonoBehaviour
 {
@@ -8,16 +11,20 @@ class UnityLogger_Samples: MonoBehaviour
 	void Start()
 	{
 
-		Goat.Logger.Log("test");
+		GoatUtils.GoatDebug.Log("test");
 
-		Logger.Log("LIME","bla",null, false);
+		GoatDebug.Log("LIME","bla",null, false);
 
-		Logger.Log("lightblue","My main camera is $t, isn't it?",Camera.main.transform, true);
+		GoatDebug.Log("lightblue","My main camera is $t, isn't it?",Camera.main.transform, true);
 
-		Logger.Log("SilVer","This is this",this.gameObject.transform, false);
+		GoatDebug.Log("SilVer","This is this",this.gameObject.transform, false);
+
+		GoatDebug.Log("LIME","bla");
+
+		GoatDebug.Log("LIME","bla",false);
 
 
-
+		
 	}
 
 

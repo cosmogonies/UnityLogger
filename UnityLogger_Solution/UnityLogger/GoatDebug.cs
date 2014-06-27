@@ -4,14 +4,25 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Goat
+namespace GoatUtils
 {
-	public static class Logger
+	public static class GoatDebug
 	{
 		
 		public static void Log(string _Text)
 		{
-			Log("white", _Text, null, true);
+			Log("white", _Text, null, false);
+		}
+
+
+		public static void Log(string _Color, string _Text)
+		{
+			Log( _Color, _Text, null, false);
+		}
+
+		public static void Log(string _Color, string _Text, bool _IncludeFrameCount)
+		{
+			Log( _Color, _Text, null, _IncludeFrameCount);
 		}
 
 		public static void Log(string _Text, bool _IncludeFrameCount)
@@ -21,7 +32,7 @@ namespace Goat
 
 		public static void Log(string _Text, UnityEngine.Transform _Transform)
 		{
-			Log("white", _Text, _Transform, true);
+			Log("white", _Text, _Transform, false);
 		}
 		
 		public static void Log(string _Color, string _Text, UnityEngine.Transform _Transform, bool _IncludeFrameCount)

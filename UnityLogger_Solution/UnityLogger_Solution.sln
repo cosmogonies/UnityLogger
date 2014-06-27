@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 10.00
 # Visual Studio 2008
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityLogger", "UnityLogger\UnityLogger.csproj", "{B31427DE-FB6F-4A32-B581-E88F034C3CDE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoatUtils", "UnityLogger\GoatUtils.csproj", "{B31427DE-FB6F-4A32-B581-E88F034C3CDE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +15,6 @@ Global
 		{B31427DE-FB6F-4A32-B581-E88F034C3CDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = UnityLogger\UnityLogger.csproj
+		StartupItem = UnityLogger\GoatUtils.csproj
 	EndGlobalSection
 EndGlobal
