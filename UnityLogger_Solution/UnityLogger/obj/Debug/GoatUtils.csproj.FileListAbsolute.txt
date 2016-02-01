@@ -1,0 +1,6 @@
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\bin\Debug\UnityLogger.dll
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\bin\Debug\UnityLogger.pdb
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\bin\Debug\UnityEngine.dll
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\obj\Debug\GoatUtils.csprojResolveAssemblyReference.cache
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\obj\Debug\UnityLogger.dll
+W:\GOAT\UnityLogger\UnityLogger_Solution\UnityLogger\obj\Debug\UnityLogger.pdb

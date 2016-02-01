@@ -10,7 +10,6 @@ class UnityLogger_Samples: MonoBehaviour
 
 	void Start()
 	{
-
 		GoatUtils.GoatDebug.Log("test");
 
 		GoatDebug.Log("LIME","bla",null, false);
@@ -21,9 +20,9 @@ class UnityLogger_Samples: MonoBehaviour
 
 		GoatDebug.Log("LIME","bla");
 
-		GoatDebug.Log("LIME","bla",false);
+		GoatDebug.Log("LIME","bla",true);
 
-
+		GoatDebug.Log("Some text...",this.gameObject.transform,true);
 		
 	}
 
